@@ -1,0 +1,7 @@
+/u/zzhang27/.conda/envs/opencompass/bin/python3
+08/16 23:14:17 - OpenCompass - INFO - Loading gsm8k_gen: configs/datasets/gsm8k/gsm8k_gen.py
+08/16 23:14:17 - OpenCompass - INFO - Loading hf_gemma2_9b_it: configs/models/gemma/hf_gemma2_9b_it.py
+08/16 23:14:17 - OpenCompass - INFO - Loading example: configs/summarizers/example.py
+08/16 23:14:17 - OpenCompass - INFO - Current exp folder: outputs/default/20240816_231417
+08/16 23:14:17 - OpenCompass - WARNING - SlurmRunner is not used, so the partition argument is ignored.
+08/16 23:14:18 - OpenCompass - INFO - Partitioned into 1 tasks.

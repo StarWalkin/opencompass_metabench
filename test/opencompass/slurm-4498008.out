@@ -1,0 +1,23 @@
+/u/zzhang27/.conda/envs/opencompass/bin/python3
+08/17 05:53:10 - OpenCompass - INFO - Loading gsm8k_gen: configs/datasets/gsm8k/gsm8k_gen.py
+08/17 05:53:11 - OpenCompass - INFO - Loading hf_glm4_9b_chat: configs/models/chatglm/hf_glm4_9b_chat.py
+08/17 05:53:11 - OpenCompass - INFO - Loading example: configs/summarizers/example.py
+08/17 05:53:11 - OpenCompass - INFO - Current exp folder: outputs/default/20240817_055311
+08/17 05:53:11 - OpenCompass - WARNING - SlurmRunner is not used, so the partition argument is ignored.
+08/17 05:53:11 - OpenCompass - INFO - Partitioned into 1 tasks.
+launch OpenICLInfer[glm-4-9b-chat-hf/gsm8k] on GPU 0,1,2,3
+08/17 05:54:24 - OpenCompass - ERROR - /scratch/bcwg/Metabench/repo/test/opencompass/opencompass/runners/local.py - _launch - 228 - task OpenICLInfer[glm-4-9b-chat-hf/gsm8k] fail, see
+outputs/default/20240817_055311/logs/infer/glm-4-9b-chat-hf/gsm8k.out
+08/17 05:54:24 - OpenCompass - ERROR - /scratch/bcwg/Metabench/repo/test/opencompass/opencompass/runners/base.py - summarize - 64 - OpenICLInfer[glm-4-9b-chat-hf/gsm8k] failed with code 1
+08/17 05:54:24 - OpenCompass - INFO - Partitioned into 1 tasks.
+launch OpenICLEval[glm-4-9b-chat-hf/gsm8k] on CPU 
+08/17 05:54:36 - OpenCompass - ERROR - /scratch/bcwg/Metabench/repo/test/opencompass/opencompass/runners/local.py - _launch - 228 - task OpenICLEval[glm-4-9b-chat-hf/gsm8k] fail, see
+outputs/default/20240817_055311/logs/eval/glm-4-9b-chat-hf/gsm8k.out
+08/17 05:54:36 - OpenCompass - ERROR - /scratch/bcwg/Metabench/repo/test/opencompass/opencompass/runners/base.py - summarize - 64 - OpenICLEval[glm-4-9b-chat-hf/gsm8k] failed with code 1
+dataset    version    metric    mode    glm-4-9b-chat-hf
+---------  ---------  --------  ------  ------------------
+gsm8k      -          -         -       -
+08/17 05:54:36 - OpenCompass - INFO - write summary to /scratch/bcwg/Metabench/repo/test/opencompass/outputs/default/20240817_055311/summary/summary_20240817_055311.txt
+08/17 05:54:36 - OpenCompass - INFO - write csv to /scratch/bcwg/Metabench/repo/test/opencompass/outputs/default/20240817_055311/summary/summary_20240817_055311.csv
+All processes have been started and their PIDs stored in process_ids_gpt4o.txt.
+All processes have completed.

@@ -1,0 +1,259 @@
+/scratch/bcwg/Metabench/anaconda/envs/opencompass/bin/python3
+08/17 11:54:34 - OpenCompass - INFO - Loading mmlu_gen: configs/datasets/mmlu/mmlu_gen.py
+08/17 11:54:34 - OpenCompass - INFO - Loading hf_gemma2_9b_it: configs/models/gemma/hf_gemma2_9b_it.py
+08/17 11:54:34 - OpenCompass - INFO - Loading hf_glm4_9b_chat: configs/models/chatglm/hf_glm4_9b_chat.py
+08/17 11:54:34 - OpenCompass - INFO - Loading hf_phi_3_small_8k_instruct: configs/models/phi/hf_phi_3_small_8k_instruct.py
+08/17 11:54:34 - OpenCompass - INFO - Loading example: configs/summarizers/example.py
+08/17 11:54:35 - OpenCompass - INFO - Current exp folder: outputs/default/20240817_115435
+08/17 11:54:35 - OpenCompass - WARNING - SlurmRunner is not used, so the partition argument is ignored.
+08/17 11:54:35 - OpenCompass - INFO - Partitioned into 3 tasks.
+launch OpenICLInfer[gemma2-9b-it-hf/lukaemon_mmlu_college_biology,gemma2-9b-it-hf/lukaemon_mmlu_college_chemistry,gemma2-9b-it-hf/lukaemon_mmlu_college_computer_science,gemma2-9b-it-hf/lukaemon_mmlu_college_mathematics,gemma2-9b-it-hf/lukaemon_mmlu_college_physics,gemma2-9b-it-hf/lukaemon_mmlu_electrical_engineering,gemma2-9b-it-hf/lukaemon_mmlu_astronomy,gemma2-9b-it-hf/lukaemon_mmlu_anatomy,gemma2-9b-it-hf/lukaemon_mmlu_abstract_algebra,gemma2-9b-it-hf/lukaemon_mmlu_machine_learning,gemma2-9b-it-hf/lukaemon_mmlu_clinical_knowledge,gemma2-9b-it-hf/lukaemon_mmlu_global_facts,gemma2-9b-it-hf/lukaemon_mmlu_management,gemma2-9b-it-hf/lukaemon_mmlu_nutrition,gemma2-9b-it-hf/lukaemon_mmlu_marketing,gemma2-9b-it-hf/lukaemon_mmlu_professional_accounting,gemma2-9b-it-hf/lukaemon_mmlu_high_school_geography,gemma2-9b-it-hf/lukaemon_mmlu_international_law,gemma2-9b-it-hf/lukaemon_mmlu_moral_scenarios,gemma2-9b-it-hf/lukaemon_mmlu_computer_security,gemma2-9b-it-hf/lukaemon_mmlu_high_school_microeconomics,gemma2-9b-it-hf/lukaemon_mmlu_professional_law,gemma2-9b-it-hf/lukaemon_mmlu_medical_genetics,gemma2-9b-it-hf/lukaemon_mmlu_professional_psychology,gemma2-9b-it-hf/lukaemon_mmlu_jurisprudence,gemma2-9b-it-hf/lukaemon_mmlu_world_religions,gemma2-9b-it-hf/lukaemon_mmlu_philosophy,gemma2-9b-it-hf/lukaemon_mmlu_virology,gemma2-9b-it-hf/lukaemon_mmlu_high_school_chemistry,gemma2-9b-it-hf/lukaemon_mmlu_public_relations,gemma2-9b-it-hf/lukaemon_mmlu_high_school_macroeconomics,gemma2-9b-it-hf/lukaemon_mmlu_human_sexuality,gemma2-9b-it-hf/lukaemon_mmlu_elementary_mathematics,gemma2-9b-it-hf/lukaemon_mmlu_high_school_physics,gemma2-9b-it-hf/lukaemon_mmlu_high_school_computer_science,gemma2-9b-it-hf/lukaemon_mmlu_high_school_european_history,gemma2-9b-it-hf/lukaemon_mmlu_business_ethics,gemma2-9b-it-hf/lukaemon_mmlu_moral_disputes,gemma2-9b-it-hf/lukaemon_mmlu_high_school_statistics,gemma2-9b-it-hf/lukaemon_mmlu_miscellaneous,gemma2-9b-it-hf/lukaemon_mmlu_formal_logic,gemma2-9b-it-hf/lukaemon_mmlu_high_school_government_and_politics,gemma2-9b-it-hf/lukaemon_mmlu_prehistory,gemma2-9b-it-hf/lukaemon_mmlu_security_studies,gemma2-9b-it-hf/lukaemon_mmlu_high_school_biology,gemma2-9b-it-hf/lukaemon_mmlu_logical_fallacies,gemma2-9b-it-hf/lukaemon_mmlu_high_school_world_history,gemma2-9b-it-hf/lukaemon_mmlu_professional_medicine,gemma2-9b-it-hf/lukaemon_mmlu_high_school_mathematics,gemma2-9b-it-hf/lukaemon_mmlu_college_medicine,gemma2-9b-it-hf/lukaemon_mmlu_high_school_us_history,gemma2-9b-it-hf/lukaemon_mmlu_sociology,gemma2-9b-it-hf/lukaemon_mmlu_econometrics,gemma2-9b-it-hf/lukaemon_mmlu_high_school_psychology,gemma2-9b-it-hf/lukaemon_mmlu_human_aging,gemma2-9b-it-hf/lukaemon_mmlu_us_foreign_policy,gemma2-9b-it-hf/lukaemon_mmlu_conceptual_physics] on GPU 0,1,2,3
+08/17 11:55:19 - OpenCompass - ERROR - /scratch/bcwg/Metabench/repo/test/opencompass/opencompass/runners/local.py - _launch - 228 - task OpenICLInfer[gemma2-9b-it-hf/lukaemon_mmlu_college_biology,gemma2-9b-it-hf/lukaemon_mmlu_college_chemistry,gemma2-9b-it-hf/lukaemon_mmlu_college_computer_science,gemma2-9b-it-hf/lukaemon_mmlu_college_mathematics,gemma2-9b-it-hf/lukaemon_mmlu_college_physics,gemma2-9b-it-hf/lukaemon_mmlu_electrical_engineering,gemma2-9b-it-hf/lukaemon_mmlu_astronomy,gemma2-9b-it-hf/lukaemon_mmlu_anatomy,gemma2-9b-it-hf/lukaemon_mmlu_abstract_algebra,gemma2-9b-it-hf/lukaemon_mmlu_machine_learning,gemma2-9b-it-hf/lukaemon_mmlu_clinical_knowledge,gemma2-9b-it-hf/lukaemon_mmlu_global_facts,gemma2-9b-it-hf/lukaemon_mmlu_management,gemma2-9b-it-hf/lukaemon_mmlu_nutrition,gemma2-9b-it-hf/lukaemon_mmlu_marketing,gemma2-9b-it-hf/lukaemon_mmlu_professional_accounting,gemma2-9b-it-hf/lukaemon_mmlu_high_school_geography,gemma2-9b-it-hf/lukaemon_mmlu_international_law,gemma2-9b-it-hf/lukaemon_mmlu_moral_scenarios,gemma2-9b-it-hf/lukaemon_mmlu_computer_security,gemma2-9b-it-hf/lukaemon_mmlu_high_school_microeconomics,gemma2-9b-it-hf/lukaemon_mmlu_professional_law,gemma2-9b-it-hf/lukaemon_mmlu_medical_genetics,gemma2-9b-it-hf/lukaemon_mmlu_professional_psychology,gemma2-9b-it-hf/lukaemon_mmlu_jurisprudence,gemma2-9b-it-hf/lukaemon_mmlu_world_religions,gemma2-9b-it-hf/lukaemon_mmlu_philosophy,gemma2-9b-it-hf/lukaemon_mmlu_virology,gemma2-9b-it-hf/lukaemon_mmlu_high_school_chemistry,gemma2-9b-it-hf/lukaemon_mmlu_public_relations,gemma2-9b-it-hf/lukaemon_mmlu_high_school_macroeconomics,gemma2-9b-it-hf/lukaemon_mmlu_human_sexuality,gemma2-9b-it-hf/lukaemon_mmlu_elementary_mathematics,gemma2-9b-it-hf/lukaemon_mmlu_high_school_physics,gemma2-9b-it-hf/lukaemon_mmlu_high_school_computer_science,gemma2-9b-it-hf/lukaemon_mmlu_high_school_european_history,gemma2-9b-it-hf/lukaemon_mmlu_business_ethics,gemma2-9b-it-hf/lukaemon_mmlu_moral_disputes,gemma2-9b-it-hf/lukaemon_mmlu_high_school_statistics,gemma2-9b-it-hf/lukaemon_mmlu_miscellaneous,gemma2-9b-it-hf/lukaemon_mmlu_formal_logic,gemma2-9b-it-hf/lukaemon_mmlu_high_school_government_and_politics,gemma2-9b-it-hf/lukaemon_mmlu_prehistory,gemma2-9b-it-hf/lukaemon_mmlu_security_studies,gemma2-9b-it-hf/lukaemon_mmlu_high_school_biology,gemma2-9b-it-hf/lukaemon_mmlu_logical_fallacies,gemma2-9b-it-hf/lukaemon_mmlu_high_school_world_history,gemma2-9b-it-hf/lukaemon_mmlu_professional_medicine,gemma2-9b-it-hf/lukaemon_mmlu_high_school_mathematics,gemma2-9b-it-hf/lukaemon_mmlu_college_medicine,gemma2-9b-it-hf/lukaemon_mmlu_high_school_us_history,gemma2-9b-it-hf/lukaemon_mmlu_sociology,gemma2-9b-it-hf/lukaemon_mmlu_econometrics,gemma2-9b-it-hf/lukaemon_mmlu_high_school_psychology,gemma2-9b-it-hf/lukaemon_mmlu_human_aging,gemma2-9b-it-hf/lukaemon_mmlu_us_foreign_policy,gemma2-9b-it-hf/lukaemon_mmlu_conceptual_physics] fail, see
+outputs/default/20240817_115435/logs/infer/gemma2-9b-it-hf/lukaemon_mmlu_college_biology.out
+launch OpenICLInfer[glm-4-9b-chat-hf/lukaemon_mmlu_college_biology,glm-4-9b-chat-hf/lukaemon_mmlu_college_chemistry,glm-4-9b-chat-hf/lukaemon_mmlu_college_computer_science,glm-4-9b-chat-hf/lukaemon_mmlu_college_mathematics,glm-4-9b-chat-hf/lukaemon_mmlu_college_physics,glm-4-9b-chat-hf/lukaemon_mmlu_electrical_engineering,glm-4-9b-chat-hf/lukaemon_mmlu_astronomy,glm-4-9b-chat-hf/lukaemon_mmlu_anatomy,glm-4-9b-chat-hf/lukaemon_mmlu_abstract_algebra,glm-4-9b-chat-hf/lukaemon_mmlu_machine_learning,glm-4-9b-chat-hf/lukaemon_mmlu_clinical_knowledge,glm-4-9b-chat-hf/lukaemon_mmlu_global_facts,glm-4-9b-chat-hf/lukaemon_mmlu_management,glm-4-9b-chat-hf/lukaemon_mmlu_nutrition,glm-4-9b-chat-hf/lukaemon_mmlu_marketing,glm-4-9b-chat-hf/lukaemon_mmlu_professional_accounting,glm-4-9b-chat-hf/lukaemon_mmlu_high_school_geography,glm-4-9b-chat-hf/lukaemon_mmlu_international_law,glm-4-9b-chat-hf/lukaemon_mmlu_moral_scenarios,glm-4-9b-chat-hf/lukaemon_mmlu_computer_security,glm-4-9b-chat-hf/lukaemon_mmlu_high_school_microeconomics,glm-4-9b-chat-hf/lukaemon_mmlu_professional_law,glm-4-9b-chat-hf/lukaemon_mmlu_medical_genetics,glm-4-9b-chat-hf/lukaemon_mmlu_professional_psychology,glm-4-9b-chat-hf/lukaemon_mmlu_jurisprudence,glm-4-9b-chat-hf/lukaemon_mmlu_world_religions,glm-4-9b-chat-hf/lukaemon_mmlu_philosophy,glm-4-9b-chat-hf/lukaemon_mmlu_virology,glm-4-9b-chat-hf/lukaemon_mmlu_high_school_chemistry,glm-4-9b-chat-hf/lukaemon_mmlu_public_relations,glm-4-9b-chat-hf/lukaemon_mmlu_high_school_macroeconomics,glm-4-9b-chat-hf/lukaemon_mmlu_human_sexuality,glm-4-9b-chat-hf/lukaemon_mmlu_elementary_mathematics,glm-4-9b-chat-hf/lukaemon_mmlu_high_school_physics,glm-4-9b-chat-hf/lukaemon_mmlu_high_school_computer_science,glm-4-9b-chat-hf/lukaemon_mmlu_high_school_european_history,glm-4-9b-chat-hf/lukaemon_mmlu_business_ethics,glm-4-9b-chat-hf/lukaemon_mmlu_moral_disputes,glm-4-9b-chat-hf/lukaemon_mmlu_high_school_statistics,glm-4-9b-chat-hf/lukaemon_mmlu_miscellaneous,glm-4-9b-chat-hf/lukaemon_mmlu_formal_logic,glm-4-9b-chat-hf/lukaemon_mmlu_high_school_government_and_politics,glm-4-9b-chat-hf/lukaemon_mmlu_prehistory,glm-4-9b-chat-hf/lukaemon_mmlu_security_studies,glm-4-9b-chat-hf/lukaemon_mmlu_high_school_biology,glm-4-9b-chat-hf/lukaemon_mmlu_logical_fallacies,glm-4-9b-chat-hf/lukaemon_mmlu_high_school_world_history,glm-4-9b-chat-hf/lukaemon_mmlu_professional_medicine,glm-4-9b-chat-hf/lukaemon_mmlu_high_school_mathematics,glm-4-9b-chat-hf/lukaemon_mmlu_college_medicine,glm-4-9b-chat-hf/lukaemon_mmlu_high_school_us_history,glm-4-9b-chat-hf/lukaemon_mmlu_sociology,glm-4-9b-chat-hf/lukaemon_mmlu_econometrics,glm-4-9b-chat-hf/lukaemon_mmlu_high_school_psychology,glm-4-9b-chat-hf/lukaemon_mmlu_human_aging,glm-4-9b-chat-hf/lukaemon_mmlu_us_foreign_policy,glm-4-9b-chat-hf/lukaemon_mmlu_conceptual_physics] on GPU 0,1,2,3
+launch OpenICLInfer[phi-3-small-8k-instruct-hf/lukaemon_mmlu_college_biology,phi-3-small-8k-instruct-hf/lukaemon_mmlu_college_chemistry,phi-3-small-8k-instruct-hf/lukaemon_mmlu_college_computer_science,phi-3-small-8k-instruct-hf/lukaemon_mmlu_college_mathematics,phi-3-small-8k-instruct-hf/lukaemon_mmlu_college_physics,phi-3-small-8k-instruct-hf/lukaemon_mmlu_electrical_engineering,phi-3-small-8k-instruct-hf/lukaemon_mmlu_astronomy,phi-3-small-8k-instruct-hf/lukaemon_mmlu_anatomy,phi-3-small-8k-instruct-hf/lukaemon_mmlu_abstract_algebra,phi-3-small-8k-instruct-hf/lukaemon_mmlu_machine_learning,phi-3-small-8k-instruct-hf/lukaemon_mmlu_clinical_knowledge,phi-3-small-8k-instruct-hf/lukaemon_mmlu_global_facts,phi-3-small-8k-instruct-hf/lukaemon_mmlu_management,phi-3-small-8k-instruct-hf/lukaemon_mmlu_nutrition,phi-3-small-8k-instruct-hf/lukaemon_mmlu_marketing,phi-3-small-8k-instruct-hf/lukaemon_mmlu_professional_accounting,phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_geography,phi-3-small-8k-instruct-hf/lukaemon_mmlu_international_law,phi-3-small-8k-instruct-hf/lukaemon_mmlu_moral_scenarios,phi-3-small-8k-instruct-hf/lukaemon_mmlu_computer_security,phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_microeconomics,phi-3-small-8k-instruct-hf/lukaemon_mmlu_professional_law,phi-3-small-8k-instruct-hf/lukaemon_mmlu_medical_genetics,phi-3-small-8k-instruct-hf/lukaemon_mmlu_professional_psychology,phi-3-small-8k-instruct-hf/lukaemon_mmlu_jurisprudence,phi-3-small-8k-instruct-hf/lukaemon_mmlu_world_religions,phi-3-small-8k-instruct-hf/lukaemon_mmlu_philosophy,phi-3-small-8k-instruct-hf/lukaemon_mmlu_virology,phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_chemistry,phi-3-small-8k-instruct-hf/lukaemon_mmlu_public_relations,phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_macroeconomics,phi-3-small-8k-instruct-hf/lukaemon_mmlu_human_sexuality,phi-3-small-8k-instruct-hf/lukaemon_mmlu_elementary_mathematics,phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_physics,phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_computer_science,phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_european_history,phi-3-small-8k-instruct-hf/lukaemon_mmlu_business_ethics,phi-3-small-8k-instruct-hf/lukaemon_mmlu_moral_disputes,phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_statistics,phi-3-small-8k-instruct-hf/lukaemon_mmlu_miscellaneous,phi-3-small-8k-instruct-hf/lukaemon_mmlu_formal_logic,phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_government_and_politics,phi-3-small-8k-instruct-hf/lukaemon_mmlu_prehistory,phi-3-small-8k-instruct-hf/lukaemon_mmlu_security_studies,phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_biology,phi-3-small-8k-instruct-hf/lukaemon_mmlu_logical_fallacies,phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_world_history,phi-3-small-8k-instruct-hf/lukaemon_mmlu_professional_medicine,phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_mathematics,phi-3-small-8k-instruct-hf/lukaemon_mmlu_college_medicine,phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_us_history,phi-3-small-8k-instruct-hf/lukaemon_mmlu_sociology,phi-3-small-8k-instruct-hf/lukaemon_mmlu_econometrics,phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_psychology,phi-3-small-8k-instruct-hf/lukaemon_mmlu_human_aging,phi-3-small-8k-instruct-hf/lukaemon_mmlu_us_foreign_policy,phi-3-small-8k-instruct-hf/lukaemon_mmlu_conceptual_physics] on GPU 0,1,2,3
+08/17 14:47:04 - OpenCompass - ERROR - /scratch/bcwg/Metabench/repo/test/opencompass/opencompass/runners/local.py - _launch - 228 - task OpenICLInfer[phi-3-small-8k-instruct-hf/lukaemon_mmlu_college_biology,phi-3-small-8k-instruct-hf/lukaemon_mmlu_college_chemistry,phi-3-small-8k-instruct-hf/lukaemon_mmlu_college_computer_science,phi-3-small-8k-instruct-hf/lukaemon_mmlu_college_mathematics,phi-3-small-8k-instruct-hf/lukaemon_mmlu_college_physics,phi-3-small-8k-instruct-hf/lukaemon_mmlu_electrical_engineering,phi-3-small-8k-instruct-hf/lukaemon_mmlu_astronomy,phi-3-small-8k-instruct-hf/lukaemon_mmlu_anatomy,phi-3-small-8k-instruct-hf/lukaemon_mmlu_abstract_algebra,phi-3-small-8k-instruct-hf/lukaemon_mmlu_machine_learning,phi-3-small-8k-instruct-hf/lukaemon_mmlu_clinical_knowledge,phi-3-small-8k-instruct-hf/lukaemon_mmlu_global_facts,phi-3-small-8k-instruct-hf/lukaemon_mmlu_management,phi-3-small-8k-instruct-hf/lukaemon_mmlu_nutrition,phi-3-small-8k-instruct-hf/lukaemon_mmlu_marketing,phi-3-small-8k-instruct-hf/lukaemon_mmlu_professional_accounting,phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_geography,phi-3-small-8k-instruct-hf/lukaemon_mmlu_international_law,phi-3-small-8k-instruct-hf/lukaemon_mmlu_moral_scenarios,phi-3-small-8k-instruct-hf/lukaemon_mmlu_computer_security,phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_microeconomics,phi-3-small-8k-instruct-hf/lukaemon_mmlu_professional_law,phi-3-small-8k-instruct-hf/lukaemon_mmlu_medical_genetics,phi-3-small-8k-instruct-hf/lukaemon_mmlu_professional_psychology,phi-3-small-8k-instruct-hf/lukaemon_mmlu_jurisprudence,phi-3-small-8k-instruct-hf/lukaemon_mmlu_world_religions,phi-3-small-8k-instruct-hf/lukaemon_mmlu_philosophy,phi-3-small-8k-instruct-hf/lukaemon_mmlu_virology,phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_chemistry,phi-3-small-8k-instruct-hf/lukaemon_mmlu_public_relations,phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_macroeconomics,phi-3-small-8k-instruct-hf/lukaemon_mmlu_human_sexuality,phi-3-small-8k-instruct-hf/lukaemon_mmlu_elementary_mathematics,phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_physics,phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_computer_science,phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_european_history,phi-3-small-8k-instruct-hf/lukaemon_mmlu_business_ethics,phi-3-small-8k-instruct-hf/lukaemon_mmlu_moral_disputes,phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_statistics,phi-3-small-8k-instruct-hf/lukaemon_mmlu_miscellaneous,phi-3-small-8k-instruct-hf/lukaemon_mmlu_formal_logic,phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_government_and_politics,phi-3-small-8k-instruct-hf/lukaemon_mmlu_prehistory,phi-3-small-8k-instruct-hf/lukaemon_mmlu_security_studies,phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_biology,phi-3-small-8k-instruct-hf/lukaemon_mmlu_logical_fallacies,phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_world_history,phi-3-small-8k-instruct-hf/lukaemon_mmlu_professional_medicine,phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_mathematics,phi-3-small-8k-instruct-hf/lukaemon_mmlu_college_medicine,phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_us_history,phi-3-small-8k-instruct-hf/lukaemon_mmlu_sociology,phi-3-small-8k-instruct-hf/lukaemon_mmlu_econometrics,phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_psychology,phi-3-small-8k-instruct-hf/lukaemon_mmlu_human_aging,phi-3-small-8k-instruct-hf/lukaemon_mmlu_us_foreign_policy,phi-3-small-8k-instruct-hf/lukaemon_mmlu_conceptual_physics] fail, see
+outputs/default/20240817_115435/logs/infer/phi-3-small-8k-instruct-hf/lukaemon_mmlu_college_biology.out
+08/17 14:47:04 - OpenCompass - ERROR - /scratch/bcwg/Metabench/repo/test/opencompass/opencompass/runners/base.py - summarize - 64 - OpenICLInfer[gemma2-9b-it-hf/lukaemon_mmlu_college_biology,gemma2-9b-it-hf/lukaemon_mmlu_college_chemistry,gemma2-9b-it-hf/lukaemon_mmlu_college_computer_science,gemma2-9b-it-hf/lukaemon_mmlu_college_mathematics,gemma2-9b-it-hf/lukaemon_mmlu_college_physics,gemma2-9b-it-hf/lukaemon_mmlu_electrical_engineering,gemma2-9b-it-hf/lukaemon_mmlu_astronomy,gemma2-9b-it-hf/lukaemon_mmlu_anatomy,gemma2-9b-it-hf/lukaemon_mmlu_abstract_algebra,gemma2-9b-it-hf/lukaemon_mmlu_machine_learning,gemma2-9b-it-hf/lukaemon_mmlu_clinical_knowledge,gemma2-9b-it-hf/lukaemon_mmlu_global_facts,gemma2-9b-it-hf/lukaemon_mmlu_management,gemma2-9b-it-hf/lukaemon_mmlu_nutrition,gemma2-9b-it-hf/lukaemon_mmlu_marketing,gemma2-9b-it-hf/lukaemon_mmlu_professional_accounting,gemma2-9b-it-hf/lukaemon_mmlu_high_school_geography,gemma2-9b-it-hf/lukaemon_mmlu_international_law,gemma2-9b-it-hf/lukaemon_mmlu_moral_scenarios,gemma2-9b-it-hf/lukaemon_mmlu_computer_security,gemma2-9b-it-hf/lukaemon_mmlu_high_school_microeconomics,gemma2-9b-it-hf/lukaemon_mmlu_professional_law,gemma2-9b-it-hf/lukaemon_mmlu_medical_genetics,gemma2-9b-it-hf/lukaemon_mmlu_professional_psychology,gemma2-9b-it-hf/lukaemon_mmlu_jurisprudence,gemma2-9b-it-hf/lukaemon_mmlu_world_religions,gemma2-9b-it-hf/lukaemon_mmlu_philosophy,gemma2-9b-it-hf/lukaemon_mmlu_virology,gemma2-9b-it-hf/lukaemon_mmlu_high_school_chemistry,gemma2-9b-it-hf/lukaemon_mmlu_public_relations,gemma2-9b-it-hf/lukaemon_mmlu_high_school_macroeconomics,gemma2-9b-it-hf/lukaemon_mmlu_human_sexuality,gemma2-9b-it-hf/lukaemon_mmlu_elementary_mathematics,gemma2-9b-it-hf/lukaemon_mmlu_high_school_physics,gemma2-9b-it-hf/lukaemon_mmlu_high_school_computer_science,gemma2-9b-it-hf/lukaemon_mmlu_high_school_european_history,gemma2-9b-it-hf/lukaemon_mmlu_business_ethics,gemma2-9b-it-hf/lukaemon_mmlu_moral_disputes,gemma2-9b-it-hf/lukaemon_mmlu_high_school_statistics,gemma2-9b-it-hf/lukaemon_mmlu_miscellaneous,gemma2-9b-it-hf/lukaemon_mmlu_formal_logic,gemma2-9b-it-hf/lukaemon_mmlu_high_school_government_and_politics,gemma2-9b-it-hf/lukaemon_mmlu_prehistory,gemma2-9b-it-hf/lukaemon_mmlu_security_studies,gemma2-9b-it-hf/lukaemon_mmlu_high_school_biology,gemma2-9b-it-hf/lukaemon_mmlu_logical_fallacies,gemma2-9b-it-hf/lukaemon_mmlu_high_school_world_history,gemma2-9b-it-hf/lukaemon_mmlu_professional_medicine,gemma2-9b-it-hf/lukaemon_mmlu_high_school_mathematics,gemma2-9b-it-hf/lukaemon_mmlu_college_medicine,gemma2-9b-it-hf/lukaemon_mmlu_high_school_us_history,gemma2-9b-it-hf/lukaemon_mmlu_sociology,gemma2-9b-it-hf/lukaemon_mmlu_econometrics,gemma2-9b-it-hf/lukaemon_mmlu_high_school_psychology,gemma2-9b-it-hf/lukaemon_mmlu_human_aging,gemma2-9b-it-hf/lukaemon_mmlu_us_foreign_policy,gemma2-9b-it-hf/lukaemon_mmlu_conceptual_physics] failed with code 1
+08/17 14:47:04 - OpenCompass - ERROR - /scratch/bcwg/Metabench/repo/test/opencompass/opencompass/runners/base.py - summarize - 64 - OpenICLInfer[phi-3-small-8k-instruct-hf/lukaemon_mmlu_college_biology,phi-3-small-8k-instruct-hf/lukaemon_mmlu_college_chemistry,phi-3-small-8k-instruct-hf/lukaemon_mmlu_college_computer_science,phi-3-small-8k-instruct-hf/lukaemon_mmlu_college_mathematics,phi-3-small-8k-instruct-hf/lukaemon_mmlu_college_physics,phi-3-small-8k-instruct-hf/lukaemon_mmlu_electrical_engineering,phi-3-small-8k-instruct-hf/lukaemon_mmlu_astronomy,phi-3-small-8k-instruct-hf/lukaemon_mmlu_anatomy,phi-3-small-8k-instruct-hf/lukaemon_mmlu_abstract_algebra,phi-3-small-8k-instruct-hf/lukaemon_mmlu_machine_learning,phi-3-small-8k-instruct-hf/lukaemon_mmlu_clinical_knowledge,phi-3-small-8k-instruct-hf/lukaemon_mmlu_global_facts,phi-3-small-8k-instruct-hf/lukaemon_mmlu_management,phi-3-small-8k-instruct-hf/lukaemon_mmlu_nutrition,phi-3-small-8k-instruct-hf/lukaemon_mmlu_marketing,phi-3-small-8k-instruct-hf/lukaemon_mmlu_professional_accounting,phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_geography,phi-3-small-8k-instruct-hf/lukaemon_mmlu_international_law,phi-3-small-8k-instruct-hf/lukaemon_mmlu_moral_scenarios,phi-3-small-8k-instruct-hf/lukaemon_mmlu_computer_security,phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_microeconomics,phi-3-small-8k-instruct-hf/lukaemon_mmlu_professional_law,phi-3-small-8k-instruct-hf/lukaemon_mmlu_medical_genetics,phi-3-small-8k-instruct-hf/lukaemon_mmlu_professional_psychology,phi-3-small-8k-instruct-hf/lukaemon_mmlu_jurisprudence,phi-3-small-8k-instruct-hf/lukaemon_mmlu_world_religions,phi-3-small-8k-instruct-hf/lukaemon_mmlu_philosophy,phi-3-small-8k-instruct-hf/lukaemon_mmlu_virology,phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_chemistry,phi-3-small-8k-instruct-hf/lukaemon_mmlu_public_relations,phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_macroeconomics,phi-3-small-8k-instruct-hf/lukaemon_mmlu_human_sexuality,phi-3-small-8k-instruct-hf/lukaemon_mmlu_elementary_mathematics,phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_physics,phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_computer_science,phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_european_history,phi-3-small-8k-instruct-hf/lukaemon_mmlu_business_ethics,phi-3-small-8k-instruct-hf/lukaemon_mmlu_moral_disputes,phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_statistics,phi-3-small-8k-instruct-hf/lukaemon_mmlu_miscellaneous,phi-3-small-8k-instruct-hf/lukaemon_mmlu_formal_logic,phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_government_and_politics,phi-3-small-8k-instruct-hf/lukaemon_mmlu_prehistory,phi-3-small-8k-instruct-hf/lukaemon_mmlu_security_studies,phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_biology,phi-3-small-8k-instruct-hf/lukaemon_mmlu_logical_fallacies,phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_world_history,phi-3-small-8k-instruct-hf/lukaemon_mmlu_professional_medicine,phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_mathematics,phi-3-small-8k-instruct-hf/lukaemon_mmlu_college_medicine,phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_us_history,phi-3-small-8k-instruct-hf/lukaemon_mmlu_sociology,phi-3-small-8k-instruct-hf/lukaemon_mmlu_econometrics,phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_psychology,phi-3-small-8k-instruct-hf/lukaemon_mmlu_human_aging,phi-3-small-8k-instruct-hf/lukaemon_mmlu_us_foreign_policy,phi-3-small-8k-instruct-hf/lukaemon_mmlu_conceptual_physics] failed with code 1
+08/17 14:47:04 - OpenCompass - INFO - Partitioned into 171 tasks.
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_college_biology] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_college_chemistry] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_college_computer_science] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_college_mathematics] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_college_physics] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_electrical_engineering] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_astronomy] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_anatomy] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_abstract_algebra] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_machine_learning] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_clinical_knowledge] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_global_facts] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_management] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_nutrition] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_marketing] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_professional_accounting] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_high_school_geography] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_international_law] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_moral_scenarios] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_computer_security] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_high_school_microeconomics] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_professional_law] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_medical_genetics] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_professional_psychology] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_jurisprudence] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_world_religions] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_philosophy] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_virology] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_high_school_chemistry] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_public_relations] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_high_school_macroeconomics] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_human_sexuality] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_elementary_mathematics] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_high_school_physics] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_high_school_computer_science] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_high_school_european_history] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_business_ethics] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_moral_disputes] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_high_school_statistics] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_miscellaneous] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_formal_logic] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_high_school_government_and_politics] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_prehistory] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_security_studies] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_high_school_biology] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_logical_fallacies] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_high_school_world_history] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_professional_medicine] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_high_school_mathematics] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_college_medicine] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_high_school_us_history] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_sociology] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_econometrics] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_high_school_psychology] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_human_aging] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_us_foreign_policy] on CPU 
+launch OpenICLEval[gemma2-9b-it-hf/lukaemon_mmlu_conceptual_physics] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_college_biology] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_college_chemistry] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_college_computer_science] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_college_mathematics] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_college_physics] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_electrical_engineering] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_astronomy] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_anatomy] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_abstract_algebra] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_machine_learning] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_clinical_knowledge] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_global_facts] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_management] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_nutrition] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_marketing] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_professional_accounting] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_high_school_geography] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_international_law] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_moral_scenarios] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_computer_security] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_high_school_microeconomics] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_professional_law] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_medical_genetics] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_professional_psychology] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_jurisprudence] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_world_religions] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_philosophy] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_virology] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_high_school_chemistry] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_public_relations] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_high_school_macroeconomics] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_human_sexuality] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_elementary_mathematics] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_high_school_physics] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_high_school_computer_science] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_high_school_european_history] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_business_ethics] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_moral_disputes] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_high_school_statistics] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_miscellaneous] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_formal_logic] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_high_school_government_and_politics] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_prehistory] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_security_studies] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_high_school_biology] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_logical_fallacies] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_high_school_world_history] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_professional_medicine] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_high_school_mathematics] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_college_medicine] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_high_school_us_history] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_sociology] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_econometrics] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_high_school_psychology] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_human_aging] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_us_foreign_policy] on CPU 
+launch OpenICLEval[glm-4-9b-chat-hf/lukaemon_mmlu_conceptual_physics] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_college_biology] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_college_chemistry] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_college_computer_science] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_college_mathematics] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_college_physics] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_electrical_engineering] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_astronomy] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_anatomy] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_abstract_algebra] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_machine_learning] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_clinical_knowledge] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_global_facts] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_management] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_nutrition] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_marketing] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_professional_accounting] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_geography] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_international_law] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_moral_scenarios] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_computer_security] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_microeconomics] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_professional_law] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_medical_genetics] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_professional_psychology] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_jurisprudence] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_world_religions] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_philosophy] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_virology] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_chemistry] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_public_relations] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_macroeconomics] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_human_sexuality] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_elementary_mathematics] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_physics] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_computer_science] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_european_history] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_business_ethics] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_moral_disputes] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_statistics] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_miscellaneous] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_formal_logic] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_government_and_politics] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_prehistory] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_security_studies] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_biology] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_logical_fallacies] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_world_history] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_professional_medicine] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_mathematics] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_college_medicine] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_us_history] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_sociology] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_econometrics] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_high_school_psychology] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_human_aging] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_us_foreign_policy] on CPU 
+launch OpenICLEval[phi-3-small-8k-instruct-hf/lukaemon_mmlu_conceptual_physics] on CPU 
+dataset                                            version    metric            mode    gemma2-9b-it-hf      glm-4-9b-chat-hf  phi-3-small-8k-instruct-hf
+-------------------------------------------------  ---------  ----------------  ------  -----------------  ------------------  ----------------------------
+lukaemon_mmlu_college_biology                      caec7d     accuracy          gen     -                               78.47  -
+lukaemon_mmlu_college_chemistry                    520aa6     accuracy          gen     -                               50.00  -
+lukaemon_mmlu_college_computer_science             99c216     accuracy          gen     -                               62.00  -
+lukaemon_mmlu_college_mathematics                  678751     accuracy          gen     -                               45.00  -
+lukaemon_mmlu_college_physics                      4f382c     accuracy          gen     -                               45.10  -
+lukaemon_mmlu_electrical_engineering               770ce3     accuracy          gen     -                               64.14  -
+lukaemon_mmlu_astronomy                            d3ee01     accuracy          gen     -                               75.66  -
+lukaemon_mmlu_anatomy                              72183b     accuracy          gen     -                               64.44  -
+lukaemon_mmlu_abstract_algebra                     2db373     accuracy          gen     -                               39.00  -
+lukaemon_mmlu_machine_learning                     0283bb     accuracy          gen     -                               51.79  -
+lukaemon_mmlu_clinical_knowledge                   cb3218     accuracy          gen     -                               74.72  -
+lukaemon_mmlu_global_facts                         ab07b6     accuracy          gen     -                               41.00  -
+lukaemon_mmlu_management                           80876d     accuracy          gen     -                               84.47  -
+lukaemon_mmlu_nutrition                            4543bd     accuracy          gen     -                               74.51  -
+lukaemon_mmlu_marketing                            7394e3     accuracy          gen     -                               91.88  -
+lukaemon_mmlu_professional_accounting              444b7f     accuracy          gen     -                               54.96  -
+lukaemon_mmlu_high_school_geography                0780e6     accuracy          gen     -                               89.90  -
+lukaemon_mmlu_international_law                    cf3179     accuracy          gen     -                               73.55  -
+lukaemon_mmlu_moral_scenarios                      f6dbe2     accuracy          gen     -                               49.72  -
+lukaemon_mmlu_computer_security                    ce7550     accuracy          gen     -                               82.00  -
+lukaemon_mmlu_high_school_microeconomics           04d21a     accuracy          gen     -                               86.55  -
+lukaemon_mmlu_professional_law                     5f7e6c     accuracy          gen     -                               51.04  -
+lukaemon_mmlu_medical_genetics                     881ef5     accuracy          gen     -                               71.00  -
+lukaemon_mmlu_professional_psychology              221a16     accuracy          gen     -                               72.06  -
+lukaemon_mmlu_jurisprudence                        001f24     accuracy          gen     -                               74.07  -
+lukaemon_mmlu_world_religions                      232c09     accuracy          gen     -                               80.12  -
+lukaemon_mmlu_philosophy                           08042b     accuracy          gen     -                               73.95  -
+lukaemon_mmlu_virology                             12e270     accuracy          gen     -                               54.22  -
+lukaemon_mmlu_high_school_chemistry                ae8820     accuracy          gen     -                               63.05  -
+lukaemon_mmlu_public_relations                     e7d39b     accuracy          gen     -                               65.45  -
+lukaemon_mmlu_high_school_macroeconomics           a01685     accuracy          gen     -                               75.90  -
+lukaemon_mmlu_human_sexuality                      42407c     accuracy          gen     -                               79.39  -
+lukaemon_mmlu_elementary_mathematics               269926     accuracy          gen     -                               57.41  -
+lukaemon_mmlu_high_school_physics                  93278f     accuracy          gen     -                               54.30  -
+lukaemon_mmlu_high_school_computer_science         9965a5     accuracy          gen     -                               76.00  -
+lukaemon_mmlu_high_school_european_history         eefc90     accuracy          gen     -                               87.27  -
+lukaemon_mmlu_business_ethics                      1dec08     accuracy          gen     -                               75.00  -
+lukaemon_mmlu_moral_disputes                       a2173e     accuracy          gen     -                               74.86  -
+lukaemon_mmlu_high_school_statistics               8f3f3a     accuracy          gen     -                               65.28  -
+lukaemon_mmlu_miscellaneous                        935647     accuracy          gen     -                               84.04  -
+lukaemon_mmlu_formal_logic                         cfcb0c     accuracy          gen     -                               49.21  -
+lukaemon_mmlu_high_school_government_and_politics  3c52f9     accuracy          gen     -                               92.75  -
+lukaemon_mmlu_prehistory                           bbb197     accuracy          gen     -                               76.54  -
+lukaemon_mmlu_security_studies                     9b1743     accuracy          gen     -                               74.69  -
+lukaemon_mmlu_high_school_biology                  37b125     accuracy          gen     -                               85.81  -
+lukaemon_mmlu_logical_fallacies                    9cebb0     accuracy          gen     -                               75.46  -
+lukaemon_mmlu_high_school_world_history            048e7e     accuracy          gen     -                               87.34  -
+lukaemon_mmlu_professional_medicine                857144     accuracy          gen     -                               76.10  -
+lukaemon_mmlu_high_school_mathematics              ed4dc0     accuracy          gen     -                               47.41  -
+lukaemon_mmlu_college_medicine                     38709e     accuracy          gen     -                               68.21  -
+lukaemon_mmlu_high_school_us_history               8932df     accuracy          gen     -                               88.73  -
+lukaemon_mmlu_sociology                            c266a2     accuracy          gen     -                               85.07  -
+lukaemon_mmlu_econometrics                         d1134d     accuracy          gen     -                               51.75  -
+lukaemon_mmlu_high_school_psychology               7db114     accuracy          gen     -                               91.38  -
+lukaemon_mmlu_human_aging                          82a410     accuracy          gen     -                               72.65  -
+lukaemon_mmlu_us_foreign_policy                    528cfe     accuracy          gen     -                               85.00  -
+lukaemon_mmlu_conceptual_physics                   63588e     accuracy          gen     -                               68.09  -
+mmlu-humanities                                    -          naive_average     gen     -                               72.45  -
+mmlu-stem                                          -          naive_average     gen     -                               61.84  -
+mmlu-social-science                                -          naive_average     gen     -                               79.16  -
+mmlu-other                                         -          naive_average     gen     -                               70.98  -
+mmlu                                               -          naive_average     gen     -                               69.99  -
+mmlu-weighted                                      -          weighted_average  gen     -                               69.46  -
+08/17 15:12:08 - OpenCompass - INFO - write summary to /scratch/bcwg/Metabench/repo/test/opencompass/outputs/default/20240817_115435/summary/summary_20240817_115435.txt
+08/17 15:12:08 - OpenCompass - INFO - write csv to /scratch/bcwg/Metabench/repo/test/opencompass/outputs/default/20240817_115435/summary/summary_20240817_115435.csv
+All processes have been started and their PIDs stored in process_ids_gpt4o.txt.
+All processes have completed.

@@ -1,0 +1,20 @@
+/u/zzhang27/.conda/envs/opencompass/bin/python3
+08/17 00:10:24 - OpenCompass - INFO - Loading gsm8k_gen: configs/datasets/gsm8k/gsm8k_gen.py
+08/17 00:10:24 - OpenCompass - INFO - Loading hf_phi_3_small_8k_instruct: configs/models/phi/hf_phi_3_small_8k_instruct.py
+08/17 00:10:24 - OpenCompass - INFO - Loading example: configs/summarizers/example.py
+08/17 00:10:25 - OpenCompass - INFO - Current exp folder: outputs/default/20240817_001025
+08/17 00:10:25 - OpenCompass - WARNING - SlurmRunner is not used, so the partition argument is ignored.
+08/17 00:10:25 - OpenCompass - INFO - Partitioned into 1 tasks.
+launch OpenICLInfer[phi-3-small-8k-instruct-hf/gsm8k] on GPU 0
+08/17 00:10:39 - OpenCompass - ERROR - /scratch/bcwg/Metabench/repo/test/opencompass/opencompass/runners/local.py - _launch - 228 - task OpenICLInfer[phi-3-small-8k-instruct-hf/gsm8k] fail, see
+outputs/default/20240817_001025/logs/infer/phi-3-small-8k-instruct-hf/gsm8k.out
+08/17 00:10:39 - OpenCompass - ERROR - /scratch/bcwg/Metabench/repo/test/opencompass/opencompass/runners/base.py - summarize - 64 - OpenICLInfer[phi-3-small-8k-instruct-hf/gsm8k] failed with code 1
+08/17 00:10:39 - OpenCompass - INFO - Partitioned into 1 tasks.
+launch OpenICLEval[phi-3-small-8k-instruct-hf/gsm8k] on CPU 
+dataset    version    metric    mode    phi-3-small-8k-instruct-hf
+---------  ---------  --------  ------  ----------------------------
+gsm8k      -          -         -       -
+08/17 00:10:50 - OpenCompass - INFO - write summary to /scratch/bcwg/Metabench/repo/test/opencompass/outputs/default/20240817_001025/summary/summary_20240817_001025.txt
+08/17 00:10:50 - OpenCompass - INFO - write csv to /scratch/bcwg/Metabench/repo/test/opencompass/outputs/default/20240817_001025/summary/summary_20240817_001025.csv
+All processes have been started and their PIDs stored in process_ids_gpt4o.txt.
+All processes have completed.

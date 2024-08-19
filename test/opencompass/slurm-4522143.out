@@ -1,0 +1,17 @@
+/scratch/bcwg/Metabench/anaconda/envs/opencompass/bin/python3
+08/18 06:55:04 - OpenCompass - INFO - Loading gsm8k_gen: configs/datasets/gsm8k/gsm8k_gen.py
+08/18 06:55:04 - OpenCompass - INFO - Loading hf_phi_3_small_8k_instruct: configs/models/phi/hf_phi_3_small_8k_instruct.py
+08/18 06:55:04 - OpenCompass - INFO - Loading example: configs/summarizers/example.py
+08/18 06:55:04 - OpenCompass - INFO - Current exp folder: outputs/default/20240818_065504
+08/18 06:55:04 - OpenCompass - WARNING - SlurmRunner is not used, so the partition argument is ignored.
+08/18 06:55:04 - OpenCompass - INFO - Partitioned into 1 tasks.
+launch OpenICLInfer[phi-3-small-8k-instruct-hf/gsm8k] on GPU 0,1,2,3
+08/18 08:55:48 - OpenCompass - INFO - Partitioned into 1 tasks.
+launch OpenICLEval[phi-3-small-8k-instruct-hf/gsm8k] on CPU 
+dataset    version    metric    mode      phi-3-small-8k-instruct-hf
+---------  ---------  --------  ------  ----------------------------
+gsm8k      1d7fe4     accuracy  gen                            87.49
+08/18 09:00:45 - OpenCompass - INFO - write summary to /scratch/bcwg/Metabench/repo/test/opencompass/outputs/default/20240818_065504/summary/summary_20240818_065504.txt
+08/18 09:00:45 - OpenCompass - INFO - write csv to /scratch/bcwg/Metabench/repo/test/opencompass/outputs/default/20240818_065504/summary/summary_20240818_065504.csv
+All processes have been started and their PIDs stored in process_ids_gpt4o.txt.
+All processes have completed.

@@ -1,0 +1,4 @@
+
+EnvironmentLocationNotFound: Not a conda environment: /u/xhu10/.conda/envs/opencompass
+
+slurmstepd: error: *** JOB 4497994 ON gpua046 CANCELLED AT 2024-08-17T05:27:22 ***

@@ -1,0 +1,17 @@
+/u/zzhang27/.conda/envs/opencompass/bin/python3
+08/15 23:01:28 - OpenCompass - INFO - Loading gsm8k_gen: configs/datasets/gsm8k/gsm8k_gen.py
+08/15 23:01:28 - OpenCompass - INFO - Loading hf_qwen2_0_5b_instruct: configs/models/qwen/hf_qwen2_0_5b_instruct.py
+08/15 23:01:28 - OpenCompass - INFO - Loading example: configs/summarizers/example.py
+08/15 23:01:29 - OpenCompass - INFO - Current exp folder: outputs/default/20240815_230129
+08/15 23:01:29 - OpenCompass - WARNING - SlurmRunner is not used, so the partition argument is ignored.
+08/15 23:01:29 - OpenCompass - INFO - Partitioned into 1 tasks.
+launch OpenICLInfer[qwen2-0.5b-instruct-hf/gsm8k] on GPU 0
+08/15 23:25:36 - OpenCompass - INFO - Partitioned into 1 tasks.
+launch OpenICLEval[qwen2-0.5b-instruct-hf/gsm8k] on CPU 
+dataset    version    metric    mode      qwen2-0.5b-instruct-hf
+---------  ---------  --------  ------  ------------------------
+gsm8k      1d7fe4     accuracy  gen                        32.37
+08/15 23:25:48 - OpenCompass - INFO - write summary to /scratch/bcwg/Metabench/repo/test/opencompass/outputs/default/20240815_230129/summary/summary_20240815_230129.txt
+08/15 23:25:48 - OpenCompass - INFO - write csv to /scratch/bcwg/Metabench/repo/test/opencompass/outputs/default/20240815_230129/summary/summary_20240815_230129.csv
+All processes have been started and their PIDs stored in process_ids_gpt4o.txt.
+All processes have completed.

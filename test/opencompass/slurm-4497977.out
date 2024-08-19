@@ -1,0 +1,20 @@
+/u/zzhang27/.conda/envs/opencompass/bin/python3
+08/17 04:35:21 - OpenCompass - INFO - Loading gsm8k_gen: configs/datasets/gsm8k/gsm8k_gen.py
+08/17 04:35:21 - OpenCompass - INFO - Loading hf_gemma2_9b_it: configs/models/gemma/hf_gemma2_9b_it.py
+08/17 04:35:21 - OpenCompass - INFO - Loading example: configs/summarizers/example.py
+08/17 04:35:21 - OpenCompass - INFO - Current exp folder: outputs/default/20240817_043521
+08/17 04:35:21 - OpenCompass - WARNING - SlurmRunner is not used, so the partition argument is ignored.
+08/17 04:35:21 - OpenCompass - INFO - Partitioned into 1 tasks.
+launch OpenICLInfer[gemma2-9b-it-hf/gsm8k] on GPU 0
+08/17 04:35:33 - OpenCompass - ERROR - /scratch/bcwg/Metabench/repo/test/opencompass/opencompass/runners/local.py - _launch - 228 - task OpenICLInfer[gemma2-9b-it-hf/gsm8k] fail, see
+outputs/default/20240817_043521/logs/infer/gemma2-9b-it-hf/gsm8k.out
+08/17 04:35:33 - OpenCompass - ERROR - /scratch/bcwg/Metabench/repo/test/opencompass/opencompass/runners/base.py - summarize - 64 - OpenICLInfer[gemma2-9b-it-hf/gsm8k] failed with code 1
+08/17 04:35:33 - OpenCompass - INFO - Partitioned into 1 tasks.
+launch OpenICLEval[gemma2-9b-it-hf/gsm8k] on CPU 
+dataset    version    metric    mode    gemma2-9b-it-hf
+---------  ---------  --------  ------  -----------------
+gsm8k      -          -         -       -
+08/17 04:35:43 - OpenCompass - INFO - write summary to /scratch/bcwg/Metabench/repo/test/opencompass/outputs/default/20240817_043521/summary/summary_20240817_043521.txt
+08/17 04:35:43 - OpenCompass - INFO - write csv to /scratch/bcwg/Metabench/repo/test/opencompass/outputs/default/20240817_043521/summary/summary_20240817_043521.csv
+All processes have been started and their PIDs stored in process_ids_gpt4o.txt.
+All processes have completed.

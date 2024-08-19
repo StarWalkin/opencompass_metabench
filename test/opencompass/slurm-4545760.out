@@ -1,0 +1,9 @@
+/scratch/bcwg/Metabench/anaconda/envs/opencompass/bin/python3
+08/18 16:01:32 - OpenCompass - INFO - Loading math_gen: configs/datasets/math/math_gen.py
+08/18 16:01:32 - OpenCompass - INFO - Loading hf_gemma2_9b_it: configs/models/gemma/hf_gemma2_9b_it.py
+08/18 16:01:32 - OpenCompass - INFO - Loading hf_glm4_9b_chat: configs/models/chatglm/hf_glm4_9b_chat.py
+08/18 16:01:32 - OpenCompass - INFO - Loading hf_phi_3_small_8k_instruct: configs/models/phi/hf_phi_3_small_8k_instruct.py
+08/18 16:01:32 - OpenCompass - INFO - Loading example: configs/summarizers/example.py
+08/18 16:01:32 - OpenCompass - INFO - Current exp folder: outputs/default/20240818_160132
+08/18 16:01:32 - OpenCompass - WARNING - SlurmRunner is not used, so the partition argument is ignored.
+08/18 16:01:32 - OpenCompass - INFO - Partitioned into 3 tasks.

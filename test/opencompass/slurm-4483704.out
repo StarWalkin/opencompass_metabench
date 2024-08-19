@@ -1,0 +1,24 @@
+/u/zzhang27/.conda/envs/opencompass/bin/python3
+08/15 22:34:37 - OpenCompass - INFO - Loading gsm8k_gen: configs/datasets/gsm8k/gsm8k_gen.py
+08/15 22:34:37 - OpenCompass - INFO - Loading vllm_qwen2_0_5b_instruct: configs/models/qwen/vllm_qwen2_0_5b_instruct.py
+08/15 22:34:37 - OpenCompass - INFO - Loading example: configs/summarizers/example.py
+08/15 22:34:38 - OpenCompass - INFO - Current exp folder: outputs/default/20240815_223438
+08/15 22:34:38 - OpenCompass - WARNING - SlurmRunner is not used, so the partition argument is ignored.
+08/15 22:34:38 - OpenCompass - INFO - ./data/gsm8k/ does not exist!Start Download data automatically!If you have downloaded the data before,You can specific `COMPASS_DATA_CACHE` to avoid downloading~
+Downloading http://opencompass.oss-cn-shanghai.aliyuncs.com/datasets/data/gsm8k.zip to /u/zzhang27/.cache/opencompass/data/gsm8k.zip
+3.4/3.4 MB ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 0:00:00
+Extracting /u/zzhang27/.cache/opencompass/data/gsm8k.zip to /u/zzhang27/.cache/opencompass/data
+08/15 22:34:41 - OpenCompass - INFO - Partitioned into 1 tasks.
+launch OpenICLInfer[qwen2-0.5b-instruct-vllm/gsm8k] on GPU 0
+08/15 22:34:47 - OpenCompass - ERROR - /scratch/bcwg/Metabench/repo/test/opencompass/opencompass/runners/local.py - _launch - 228 - task OpenICLInfer[qwen2-0.5b-instruct-vllm/gsm8k] fail, see
+outputs/default/20240815_223438/logs/infer/qwen2-0.5b-instruct-vllm/gsm8k.out
+08/15 22:34:47 - OpenCompass - ERROR - /scratch/bcwg/Metabench/repo/test/opencompass/opencompass/runners/base.py - summarize - 64 - OpenICLInfer[qwen2-0.5b-instruct-vllm/gsm8k] failed with code 1
+08/15 22:34:47 - OpenCompass - INFO - Partitioned into 1 tasks.
+launch OpenICLEval[qwen2-0.5b-instruct-vllm/gsm8k] on CPU 
+dataset    version    metric    mode    qwen2-0.5b-instruct-vllm
+---------  ---------  --------  ------  --------------------------
+gsm8k      -          -         -       -
+08/15 22:34:54 - OpenCompass - INFO - write summary to /scratch/bcwg/Metabench/repo/test/opencompass/outputs/default/20240815_223438/summary/summary_20240815_223438.txt
+08/15 22:34:54 - OpenCompass - INFO - write csv to /scratch/bcwg/Metabench/repo/test/opencompass/outputs/default/20240815_223438/summary/summary_20240815_223438.csv
+All processes have been started and their PIDs stored in process_ids_gpt4o.txt.
+All processes have completed.

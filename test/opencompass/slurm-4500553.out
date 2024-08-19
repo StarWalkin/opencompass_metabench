@@ -1,0 +1,9 @@
+/scratch/bcwg/Metabench/anaconda/envs/opencompass/bin/python3
+08/17 11:52:48 - OpenCompass - INFO - Loading mmlu_gen: configs/datasets/mmlu/mmlu_gen.py
+08/17 11:52:48 - OpenCompass - INFO - Loading hf_llama3_8b_instruct: configs/models/hf_llama/hf_llama3_8b_instruct.py
+08/17 11:52:48 - OpenCompass - INFO - Loading hf_qwen2_7b_instruct: configs/models/qwen/hf_qwen2_7b_instruct.py
+08/17 11:52:48 - OpenCompass - INFO - Loading hf_yi_1_5_9b_chat: configs/models/yi/hf_yi_1_5_9b_chat.py
+08/17 11:52:48 - OpenCompass - INFO - Loading example: configs/summarizers/example.py
+08/17 11:52:48 - OpenCompass - INFO - Current exp folder: outputs/default/20240817_115248
+08/17 11:52:48 - OpenCompass - WARNING - SlurmRunner is not used, so the partition argument is ignored.
+08/17 11:52:55 - OpenCompass - INFO - Partitioned into 3 tasks.

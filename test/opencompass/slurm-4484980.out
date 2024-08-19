@@ -1,0 +1,59 @@
+/u/zzhang27/.conda/envs/opencompass/bin/python3
+08/16 04:41:21 - OpenCompass - INFO - Loading gsm8k_gen: configs/datasets/gsm8k/gsm8k_gen.py
+08/16 04:41:21 - OpenCompass - INFO - Loading hf_gemma2_9b_it: configs/models/gemma/hf_gemma2_9b_it.py
+08/16 04:41:21 - OpenCompass - INFO - Loading hf_llama3_8b_instruct: configs/models/hf_llama/hf_llama3_8b_instruct.py
+08/16 04:41:21 - OpenCompass - INFO - Loading hf_phi_3_small_8k_instruct: configs/models/phi/hf_phi_3_small_8k_instruct.py
+08/16 04:41:21 - OpenCompass - INFO - Loading hf_qwen2_7b_instruct: configs/models/qwen/hf_qwen2_7b_instruct.py
+08/16 04:41:21 - OpenCompass - INFO - Loading hf_yi_1_5_9b_chat: configs/models/yi/hf_yi_1_5_9b_chat.py
+08/16 04:41:21 - OpenCompass - INFO - Loading example: configs/summarizers/example.py
+08/16 04:41:21 - OpenCompass - INFO - Current exp folder: outputs/default/20240816_044121
+08/16 04:41:21 - OpenCompass - WARNING - SlurmRunner is not used, so the partition argument is ignored.
+08/16 04:41:21 - OpenCompass - INFO - Partitioned into 5 tasks.
+launch OpenICLInfer[gemma2-9b-it-hf/gsm8k] on GPU 0
+08/16 04:42:56 - OpenCompass - ERROR - /scratch/bcwg/Metabench/repo/test/opencompass/opencompass/runners/local.py - _launch - 228 - task OpenICLInfer[gemma2-9b-it-hf/gsm8k] fail, see
+outputs/default/20240816_044121/logs/infer/gemma2-9b-it-hf/gsm8k.out
+launch OpenICLInfer[llama-3-8b-instruct-hf/gsm8k] on GPU 0
+08/16 04:43:06 - OpenCompass - ERROR - /scratch/bcwg/Metabench/repo/test/opencompass/opencompass/runners/local.py - _launch - 228 - task OpenICLInfer[llama-3-8b-instruct-hf/gsm8k] fail, see
+outputs/default/20240816_044121/logs/infer/llama-3-8b-instruct-hf/gsm8k.out
+launch OpenICLInfer[phi-3-small-8k-instruct-hf/gsm8k] on GPU 0
+08/16 04:43:14 - OpenCompass - ERROR - /scratch/bcwg/Metabench/repo/test/opencompass/opencompass/runners/local.py - _launch - 228 - task OpenICLInfer[phi-3-small-8k-instruct-hf/gsm8k] fail, see
+outputs/default/20240816_044121/logs/infer/phi-3-small-8k-instruct-hf/gsm8k.out
+launch OpenICLInfer[qwen2-7b-instruct-hf/gsm8k] on GPU 0
+08/16 04:43:23 - OpenCompass - ERROR - /scratch/bcwg/Metabench/repo/test/opencompass/opencompass/runners/local.py - _launch - 228 - task OpenICLInfer[qwen2-7b-instruct-hf/gsm8k] fail, see
+outputs/default/20240816_044121/logs/infer/qwen2-7b-instruct-hf/gsm8k.out
+launch OpenICLInfer[yi-1.5-9b-chat-hf/gsm8k] on GPU 0
+08/16 04:43:31 - OpenCompass - ERROR - /scratch/bcwg/Metabench/repo/test/opencompass/opencompass/runners/local.py - _launch - 228 - task OpenICLInfer[yi-1.5-9b-chat-hf/gsm8k] fail, see
+outputs/default/20240816_044121/logs/infer/yi-1.5-9b-chat-hf/gsm8k.out
+08/16 04:43:31 - OpenCompass - ERROR - /scratch/bcwg/Metabench/repo/test/opencompass/opencompass/runners/base.py - summarize - 64 - OpenICLInfer[gemma2-9b-it-hf/gsm8k] failed with code 1
+08/16 04:43:31 - OpenCompass - ERROR - /scratch/bcwg/Metabench/repo/test/opencompass/opencompass/runners/base.py - summarize - 64 - OpenICLInfer[llama-3-8b-instruct-hf/gsm8k] failed with code 1
+08/16 04:43:31 - OpenCompass - ERROR - /scratch/bcwg/Metabench/repo/test/opencompass/opencompass/runners/base.py - summarize - 64 - OpenICLInfer[phi-3-small-8k-instruct-hf/gsm8k] failed with code 1
+08/16 04:43:31 - OpenCompass - ERROR - /scratch/bcwg/Metabench/repo/test/opencompass/opencompass/runners/base.py - summarize - 64 - OpenICLInfer[qwen2-7b-instruct-hf/gsm8k] failed with code 1
+08/16 04:43:31 - OpenCompass - ERROR - /scratch/bcwg/Metabench/repo/test/opencompass/opencompass/runners/base.py - summarize - 64 - OpenICLInfer[yi-1.5-9b-chat-hf/gsm8k] failed with code 1
+08/16 04:43:31 - OpenCompass - INFO - Partitioned into 5 tasks.
+launch OpenICLEval[gemma2-9b-it-hf/gsm8k] on CPU 
+08/16 04:43:39 - OpenCompass - ERROR - /scratch/bcwg/Metabench/repo/test/opencompass/opencompass/runners/local.py - _launch - 228 - task OpenICLEval[gemma2-9b-it-hf/gsm8k] fail, see
+outputs/default/20240816_044121/logs/eval/gemma2-9b-it-hf/gsm8k.out
+launch OpenICLEval[llama-3-8b-instruct-hf/gsm8k] on CPU 
+08/16 04:43:46 - OpenCompass - ERROR - /scratch/bcwg/Metabench/repo/test/opencompass/opencompass/runners/local.py - _launch - 228 - task OpenICLEval[llama-3-8b-instruct-hf/gsm8k] fail, see
+outputs/default/20240816_044121/logs/eval/llama-3-8b-instruct-hf/gsm8k.out
+launch OpenICLEval[phi-3-small-8k-instruct-hf/gsm8k] on CPU 
+08/16 04:43:53 - OpenCompass - ERROR - /scratch/bcwg/Metabench/repo/test/opencompass/opencompass/runners/local.py - _launch - 228 - task OpenICLEval[phi-3-small-8k-instruct-hf/gsm8k] fail, see
+outputs/default/20240816_044121/logs/eval/phi-3-small-8k-instruct-hf/gsm8k.out
+launch OpenICLEval[qwen2-7b-instruct-hf/gsm8k] on CPU 
+08/16 04:43:59 - OpenCompass - ERROR - /scratch/bcwg/Metabench/repo/test/opencompass/opencompass/runners/local.py - _launch - 228 - task OpenICLEval[qwen2-7b-instruct-hf/gsm8k] fail, see
+outputs/default/20240816_044121/logs/eval/qwen2-7b-instruct-hf/gsm8k.out
+launch OpenICLEval[yi-1.5-9b-chat-hf/gsm8k] on CPU 
+08/16 04:44:07 - OpenCompass - ERROR - /scratch/bcwg/Metabench/repo/test/opencompass/opencompass/runners/local.py - _launch - 228 - task OpenICLEval[yi-1.5-9b-chat-hf/gsm8k] fail, see
+outputs/default/20240816_044121/logs/eval/yi-1.5-9b-chat-hf/gsm8k.out
+08/16 04:44:07 - OpenCompass - ERROR - /scratch/bcwg/Metabench/repo/test/opencompass/opencompass/runners/base.py - summarize - 64 - OpenICLEval[gemma2-9b-it-hf/gsm8k] failed with code 1
+08/16 04:44:07 - OpenCompass - ERROR - /scratch/bcwg/Metabench/repo/test/opencompass/opencompass/runners/base.py - summarize - 64 - OpenICLEval[llama-3-8b-instruct-hf/gsm8k] failed with code 1
+08/16 04:44:07 - OpenCompass - ERROR - /scratch/bcwg/Metabench/repo/test/opencompass/opencompass/runners/base.py - summarize - 64 - OpenICLEval[phi-3-small-8k-instruct-hf/gsm8k] failed with code 1
+08/16 04:44:07 - OpenCompass - ERROR - /scratch/bcwg/Metabench/repo/test/opencompass/opencompass/runners/base.py - summarize - 64 - OpenICLEval[qwen2-7b-instruct-hf/gsm8k] failed with code 1
+08/16 04:44:07 - OpenCompass - ERROR - /scratch/bcwg/Metabench/repo/test/opencompass/opencompass/runners/base.py - summarize - 64 - OpenICLEval[yi-1.5-9b-chat-hf/gsm8k] failed with code 1
+dataset    version    metric    mode    gemma2-9b-it-hf    llama-3-8b-instruct-hf    phi-3-small-8k-instruct-hf    qwen2-7b-instruct-hf    yi-1.5-9b-chat-hf
+---------  ---------  --------  ------  -----------------  ------------------------  ----------------------------  ----------------------  -------------------
+gsm8k      -          -         -       -                  -                         -                             -                       -
+08/16 04:44:07 - OpenCompass - INFO - write summary to /scratch/bcwg/Metabench/repo/test/opencompass/outputs/default/20240816_044121/summary/summary_20240816_044121.txt
+08/16 04:44:07 - OpenCompass - INFO - write csv to /scratch/bcwg/Metabench/repo/test/opencompass/outputs/default/20240816_044121/summary/summary_20240816_044121.csv
+All processes have been started and their PIDs stored in process_ids_gpt4o.txt.
+All processes have completed.

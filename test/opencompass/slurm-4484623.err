@@ -1,0 +1,48 @@
+Traceback (most recent call last):
+  File "/scratch/bcwg/Metabench/repo/test/opencompass/run.py", line 1, in <module>
+    from opencompass.cli.main import main
+  File "/scratch/bcwg/Metabench/repo/test/opencompass/opencompass/cli/main.py", line 16, in <module>
+    from opencompass.utils.run import (fill_eval_cfg, fill_infer_cfg,
+  File "/scratch/bcwg/Metabench/repo/test/opencompass/opencompass/utils/run.py", line 9, in <module>
+    from opencompass.datasets.custom import make_custom_dataset_config
+  File "/scratch/bcwg/Metabench/repo/test/opencompass/opencompass/datasets/__init__.py", line 1, in <module>
+    from .advglue import *  # noqa: F401, F403
+  File "/scratch/bcwg/Metabench/repo/test/opencompass/opencompass/datasets/advglue.py", line 6, in <module>
+    from opencompass.openicl.icl_evaluator import AccEvaluator
+  File "/scratch/bcwg/Metabench/repo/test/opencompass/opencompass/openicl/__init__.py", line 2, in <module>
+    from .icl_evaluator import *  # noqa
+  File "/scratch/bcwg/Metabench/repo/test/opencompass/opencompass/openicl/icl_evaluator/__init__.py", line 1, in <module>
+    from .icl_agent_evaluator import *  # noqa
+  File "/scratch/bcwg/Metabench/repo/test/opencompass/opencompass/openicl/icl_evaluator/icl_agent_evaluator.py", line 11, in <module>
+    from opencompass.models import OpenAI
+  File "/scratch/bcwg/Metabench/repo/test/opencompass/opencompass/models/__init__.py", line 45, in <module>
+    from .vllm import VLLM  # noqa: F401
+  File "/scratch/bcwg/Metabench/repo/test/opencompass/opencompass/models/vllm.py", line 9, in <module>
+    from vllm import LLM, SamplingParams
+  File "/u/zzhang27/.conda/envs/opencompass/lib/python3.10/site-packages/vllm/__init__.py", line 6, in <module>
+    from vllm.entrypoints.llm import LLM
+  File "/u/zzhang27/.conda/envs/opencompass/lib/python3.10/site-packages/vllm/entrypoints/llm.py", line 13, in <module>
+    from vllm.model_executor.guided_decoding import (
+  File "/u/zzhang27/.conda/envs/opencompass/lib/python3.10/site-packages/vllm/model_executor/guided_decoding/__init__.py", line 8, in <module>
+    from vllm.model_executor.guided_decoding.outlines_decoding import (
+  File "/u/zzhang27/.conda/envs/opencompass/lib/python3.10/site-packages/vllm/model_executor/guided_decoding/outlines_decoding.py", line 15, in <module>
+    from vllm.model_executor.guided_decoding.outlines_logits_processors import (
+  File "/u/zzhang27/.conda/envs/opencompass/lib/python3.10/site-packages/vllm/model_executor/guided_decoding/outlines_logits_processors.py", line 25, in <module>
+    from outlines import grammars
+  File "/u/zzhang27/.conda/envs/opencompass/lib/python3.10/site-packages/outlines/__init__.py", line 2, in <module>
+    import outlines.generate
+  File "/u/zzhang27/.conda/envs/opencompass/lib/python3.10/site-packages/outlines/generate/__init__.py", line 2, in <module>
+    from .cfg import cfg
+  File "/u/zzhang27/.conda/envs/opencompass/lib/python3.10/site-packages/outlines/generate/cfg.py", line 3, in <module>
+    from outlines.fsm.guide import CFGGuide
+  File "/u/zzhang27/.conda/envs/opencompass/lib/python3.10/site-packages/outlines/fsm/guide.py", line 109, in <module>
+    def create_states_mapping(
+  File "/u/zzhang27/.conda/envs/opencompass/lib/python3.10/site-packages/outlines/caching.py", line 93, in decorator
+    memory = get_cache()
+  File "/u/zzhang27/.conda/envs/opencompass/lib/python3.10/site-packages/outlines/caching.py", line 55, in get_cache
+    memory = Cache(
+  File "/u/zzhang27/.conda/envs/opencompass/lib/python3.10/site-packages/diskcache/core.py", line 478, in __init__
+    self.reset(key, value, update=False)
+  File "/u/zzhang27/.conda/envs/opencompass/lib/python3.10/site-packages/diskcache/core.py", line 2431, in reset
+    ((old_value,),) = sql(
+sqlite3.OperationalError: locking protocol

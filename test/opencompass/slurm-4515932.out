@@ -1,0 +1,7 @@
+/scratch/bcwg/Metabench/anaconda/envs/opencompass/bin/python3
+08/18 00:07:52 - OpenCompass - INFO - Loading gsm8k_gen: configs/datasets/gsm8k/gsm8k_gen.py
+08/18 00:07:52 - OpenCompass - INFO - Loading hf_phi_3_small_8k_instruct: configs/models/phi/hf_phi_3_small_8k_instruct.py
+08/18 00:07:52 - OpenCompass - INFO - Loading example: configs/summarizers/example.py
+08/18 00:07:53 - OpenCompass - INFO - Current exp folder: outputs/default/20240818_000753
+08/18 00:07:53 - OpenCompass - WARNING - SlurmRunner is not used, so the partition argument is ignored.
+08/18 00:07:53 - OpenCompass - INFO - Partitioned into 1 tasks.

@@ -1,0 +1,20 @@
+/u/zzhang27/.conda/envs/opencompass/bin/python3
+08/16 00:44:05 - OpenCompass - INFO - Loading gsm8k_gen: configs/datasets/gsm8k/gsm8k_gen.py
+08/16 00:44:05 - OpenCompass - INFO - Loading hf_gemma2_9b_it: configs/models/gemma/hf_gemma2_9b_it.py
+08/16 00:44:05 - OpenCompass - INFO - Loading hf_llama3_8b_instruct: configs/models/hf_llama/hf_llama3_8b_instruct.py
+08/16 00:44:05 - OpenCompass - INFO - Loading hf_phi_3_small_8k_instruct: configs/models/phi/hf_phi_3_small_8k_instruct.py
+08/16 00:44:05 - OpenCompass - INFO - Loading hf_qwen2_7b_instruct: configs/models/qwen/hf_qwen2_7b_instruct.py
+08/16 00:44:05 - OpenCompass - INFO - Loading hf_yi_1_5_9b_chat: configs/models/yi/hf_yi_1_5_9b_chat.py
+08/16 00:44:05 - OpenCompass - INFO - Loading example: configs/summarizers/example.py
+08/16 00:44:05 - OpenCompass - INFO - Current exp folder: outputs/default/20240816_004405
+08/16 00:44:05 - OpenCompass - WARNING - SlurmRunner is not used, so the partition argument is ignored.
+08/16 00:44:05 - OpenCompass - INFO - Partitioned into 5 tasks.
+launch OpenICLInfer[gemma2-9b-it-hf/gsm8k] on GPU 0
+08/16 00:44:18 - OpenCompass - ERROR - /scratch/bcwg/Metabench/repo/test/opencompass/opencompass/runners/local.py - _launch - 228 - task OpenICLInfer[gemma2-9b-it-hf/gsm8k] fail, see
+outputs/default/20240816_004405/logs/infer/gemma2-9b-it-hf/gsm8k.out
+launch OpenICLInfer[llama-3-8b-instruct-hf/gsm8k] on GPU 0
+08/16 00:44:30 - OpenCompass - ERROR - /scratch/bcwg/Metabench/repo/test/opencompass/opencompass/runners/local.py - _launch - 228 - task OpenICLInfer[llama-3-8b-instruct-hf/gsm8k] fail, see
+outputs/default/20240816_004405/logs/infer/llama-3-8b-instruct-hf/gsm8k.out
+launch OpenICLInfer[phi-3-small-8k-instruct-hf/gsm8k] on GPU 0
+08/16 00:44:43 - OpenCompass - ERROR - /scratch/bcwg/Metabench/repo/test/opencompass/opencompass/runners/local.py - _launch - 228 - task OpenICLInfer[phi-3-small-8k-instruct-hf/gsm8k] fail, see
+outputs/default/20240816_004405/logs/infer/phi-3-small-8k-instruct-hf/gsm8k.out
